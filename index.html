@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ستونگر جنوب - پیمانکاری تخصصی</title>
+    <meta name="description" content="ستونگر جنوب - متخصص در فلزکاری، جوشکاری، سفت‌کاری و پیمانکاری ساختمانی">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <img src="logo_circle.png" alt="ستونگر جنوب" class="logo-img">
+                <span>ستونگر جنوب</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">خانه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">خدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">پروژه‌ها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">تماس</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slideshow">
+            <div class="slide active">
+                <img src="Screenshot_2025-08-09-11-21-31-095_com.instagram.android-edit.jpg" alt="پروژه فلزکاری">
+                <div class="slide-content">
+                    <h1>فلزکاری و جوشکاری تخصصی</h1>
+                    <p>با سال‌ها تجربه در زمینه فلزکاری، بهترین کیفیت را ارائه می‌دهیم</p>
+                    <a href="#contact" class="btn btn-primary">مشاوره رایگان</a>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="slide-placeholder" style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));">
+                    <i class="fas fa-hammer" style="font-size: 4rem; color: white; opacity: 0.3;"></i>
+                </div>
+                <div class="slide-content">
+                    <h1>سفت‌کاری حرفه‌ای</h1>
+                    <p>انجام کلیه کارهای سفت‌کاری و دیوارچینی با بالاترین استانداردها</p>
+                    <a href="#projects" class="btn btn-primary">نمونه کارها</a>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="slide-placeholder" style="background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));">
+                    <i class="fas fa-building" style="font-size: 4rem; color: white; opacity: 0.3;"></i>
+                </div>
+                <div class="slide-content">
+                    <h1>پیمانکاری ساختمانی</h1>
+                    <p>مجری پروژه‌های ساختمانی از کوچک تا بزرگ با ضمانت کیفیت</p>
+                    <a href="tel:09173580068" class="btn btn-primary">تماس فوری</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slideshow Navigation -->
+        <div class="slideshow-nav">
+            <button class="slide-btn active" data-slide="0"></button>
+            <button class="slide-btn" data-slide="1"></button>
+            <button class="slide-btn" data-slide="2"></button>
+        </div>
+
+        <!-- Slideshow Arrows -->
+        <div class="slideshow-arrows">
+            <button class="arrow-btn prev" id="prevSlide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <button class="arrow-btn next" id="nextSlide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">خدمات ما</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>فلزکاری و جوشکاری</h3>
+                    <p>انجام کلیه کارهای فلزکاری، جوشکاری و ساخت قطعات فلزی با دقت و کیفیت بالا</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>سفت‌کاری</h3>
+                    <p>اجرای کارهای سفت‌کاری، دیوارچینی و کاشی‌کاری با بهترین مصالح و تکنیک‌ها</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>پیمانکاری ساختمانی</h3>
+                    <p>مجری پروژه‌های مسکونی، تجاری و صنعتی از طراحی تا اجرا و تحویل</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>تعمیر و بازسازی</h3>
+                    <p>تعمیرات اساسی، بازسازی و نوسازی ساختمان‌ها با حفظ کیفیت و زیبایی</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">نمونه کارهای ما</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="metalwork">فلزکاری</button>
+                <button class="filter-btn" data-filter="construction">ساختمانی</button>
+                <button class="filter-btn" data-filter="renovation">بازسازی</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="metalwork">
+                    <img src="Screenshot_2025-08-09-11-21-31-095_com.instagram.android-edit.jpg" alt="پروژه فلزکاری" loading="lazy">
+                    <div class="project-overlay">
+                        <h3>فلزکاری تخصصی</h3>
+                        <p>ساخت و نصب سازه‌های فلزی</p>
+                        <a href="https://wa.me/989173580068" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="construction">
+                    <div class="project-placeholder">
+                        <i class="fas fa-building"></i>
+                        <span>پروژه ساختمانی</span>
+                    </div>
+                    <div class="project-overlay">
+                        <h3>ساخت ساختمان مسکونی</h3>
+                        <p>پروژه مسکونی ۳ طبقه</p>
+                        <a href="https://wa.me/989173580068" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="renovation">
+                    <div class="project-placeholder">
+                        <i class="fas fa-hammer"></i>
+                        <span>بازسازی</span>
+                    </div>
+                    <div class="project-overlay">
+                        <h3>بازسازی ساختمان</h3>
+                        <p>نوسازی کامل واحد مسکونی</p>
+                        <a href="https://wa.me/989173580068" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="metalwork">
+                    <div class="project-placeholder">
+                        <i class="fas fa-tools"></i>
+                        <span>جوشکاری</span>
+                    </div>
+                    <div class="project-overlay">
+                        <h3>جوشکاری صنعتی</h3>
+                        <p>جوشکاری قطعات صنعتی</p>
+                        <a href="https://wa.me/989173580068" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">پروژه موفق</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-label">سال تجربه</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="200">0</div>
+                    <div class="stat-label">مشتری راضی</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">پشتیبانی ۲۴ساعته</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">درباره ستونگر جنوب</h2>
+                    <p>ما در ستونگر جنوب با بیش از ۸ سال تجربه در زمینه پیمانکاری ساختمانی، فلزکاری و سفت‌کاری، همواره در تلاش برای ارائه بهترین کیفیت و خدمات به مشتریان عزیز خود بوده‌ایم.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>کیفیت تضمینی</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>تحویل به موقع</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>تیم متخصص</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>ضمانت کار</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="Screenshot_2025-08-09-11-21-31-095_com.instagram.android-edit.jpg" alt="تیم ستونگر جنوب" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">تماس با ما</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>تلفن تماس</h3>
+                            <a href="tel:09173580068" id="phone-link">0917 358 0068</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>واتساپ</h3>
+                            <a href="https://wa.me/989173580068">پیام در واتساپ</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>اینستاگرام</h3>
+                            <a href="https://instagram.com/setoungarjonoub" target="_blank">@setoungarjonoub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="نام و نام خانوادگی" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="شماره تماس" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">نوع خدمات مورد نیاز</option>
+                                <option value="فلزکاری">فلزکاری و جوشکاری</option>
+                                <option value="سفت‌کاری">سفت‌کاری</option>
+                                <option value="پیمانکاری">پیمانکاری ساختمانی</option>
+                                <option value="بازسازی">تعمیر و بازسازی</option>
+                                <option value="مشاوره">مشاوره رایگان</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="توضیحات پروژه..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">ارسال پیام</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo_circle.png" alt="ستونگر جنوب">
+                        <span>ستونگر جنوب</span>
+                    </div>
+                    <p>متخصص در فلزکاری، جوشکاری، سفت‌کاری و پیمانکاری ساختمانی</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>خدمات ما</h3>
+                    <ul>
+                        <li><a href="#services">فلزکاری و جوشکاری</a></li>
+                        <li><a href="#services">سفت‌کاری</a></li>
+                        <li><a href="#services">پیمانکاری ساختمانی</a></li>
+                        <li><a href="#services">تعمیر و بازسازی</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>ارتباط با ما</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> 0917 358 0068</p>
+                        <p><i class="fab fa-whatsapp"></i> واتساپ</p>
+                        <p><i class="fab fa-instagram"></i> @setoungarjonoub</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; ۱۴۰۳ ستونگر جنوب. تمامی حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Float Buttons -->
+    <div class="float-buttons">
+        <a href="https://wa.me/989173580068" class="float-btn whatsapp" title="واتساپ">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:09173580068" class="float-btn call" title="تماس">
+            <i class="fas fa-phone"></i>
+        </a>
+        <a href="https://instagram.com/setoungarjonoub" class="float-btn instagram" target="_blank" title="اینستاگرام">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" title="بازگشت به بالا">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
