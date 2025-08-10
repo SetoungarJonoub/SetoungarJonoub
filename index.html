@@ -1,389 +1,313 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ستونگر جنوب - پیمانکاری تخصصی</title>
-    <meta name="description" content="ستونگر جنوب - متخصص در فلزکاری، جوشکاری، سفت‌کاری و پیمانکاری ساختمانی">
+    <title>شرکت ساختمانی ستون‌گر جنوب - خدمات ساخت و ساز تخصصی</title>
+    <meta name="description" content="شرکت ساختمانی ستون‌گر جنوب ارائه‌دهنده خدمات تخصصی ساخت و ساز، طراحی، مهندسی و نظارت در پروژه‌های ساختمانی">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vazir:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <div class="nav-logo">
-                <img src="logo_circle.png" alt="ستونگر جنوب" class="logo-img">
-                <span>ستونگر جنوب</span>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="logo_circle.png" alt="لوگو ستون‌گر جنوب">
+                    <h1>ستون‌گر جنوب</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">خانه</a></li>
+                        <li><a href="#services">خدمات</a></li>
+                        <li><a href="#about">درباره ما</a></li>
+                        <li><a href="#projects">پروژه‌ها</a></li>
+                        <li><a href="#contact">تماس</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">خانه</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#services" class="nav-link">خدمات</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">پروژه‌ها</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">درباره ما</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">تماس</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="nav-toggle" id="nav-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-        </nav>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-slideshow">
+    <!-- Hero Section with Slideshow -->
+    <section id="home" class="hero">
+        <div class="slideshow-container">
+            <!-- Slide 1 -->
             <div class="slide active">
-                <img src="Screenshot_2025-08-09-11-21-31-095_com.instagram.android-edit.jpg" alt="پروژه فلزکاری">
+                <img src="project2.jpg" alt="اجرای والیست و دیوارچینی - رسالت">
                 <div class="slide-content">
-                    <h1>فلزکاری و جوشکاری تخصصی</h1>
-                    <p>با سال‌ها تجربه در زمینه فلزکاری، بهترین کیفیت را ارائه می‌دهیم</p>
-                    <a href="#contact" class="btn btn-primary">مشاوره رایگان</a>
+                    <h2>اجرای والیست و دیوارچینی</h2>
+                    <p>پروژه تخصصی در منطقه رسالت، کوچه خیر با استفاده از بهترین مصالح و تکنیک‌های روز</p>
+                    <a href="#contact" class="cta-button">درخواست مشاوره</a>
                 </div>
             </div>
             
+            <!-- Slide 2 -->
             <div class="slide">
-                <div class="slide-placeholder" style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));">
-                    <i class="fas fa-hammer" style="font-size: 4rem; color: white; opacity: 0.3;"></i>
-                </div>
+                <img src="project3.jpg" alt="اجرای والیست و دیوارچینی - نوی ولیعصر">
                 <div class="slide-content">
-                    <h1>سفت‌کاری حرفه‌ای</h1>
-                    <p>انجام کلیه کارهای سفت‌کاری و دیوارچینی با بالاترین استانداردها</p>
-                    <a href="#projects" class="btn btn-primary">نمونه کارها</a>
+                    <h2>والیست و دیوارچینی تخصصی</h2>
+                    <p>اجرای دقیق و حرفه‌ای در منطقه نوی ولیعصر با تضمین کیفیت و دوام</p>
+                    <a href="#services" class="cta-button">مشاهده خدمات</a>
                 </div>
             </div>
             
+            <!-- Slide 3 -->
             <div class="slide">
-                <div class="slide-placeholder" style="background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));">
-                    <i class="fas fa-building" style="font-size: 4rem; color: white; opacity: 0.3;"></i>
-                </div>
+                <img src="project4.jpg" alt="اجرای والیست ۱۳ هکتاری">
                 <div class="slide-content">
-                    <h1>پیمانکاری ساختمانی</h1>
-                    <p>مجری پروژه‌های ساختمانی از کوچک تا بزرگ با ضمانت کیفیت</p>
-                    <a href="tel:09173580068" class="btn btn-primary">تماس فوری</a>
+                    <h2>پروژه والیست ۱۳ هکتاری</h2>
+                    <p>مدیریت و اجرای پروژه‌های بزرگ مقیاس با تجربه و تخصص بالا</p>
+                    <a href="#projects" class="cta-button">نمونه کارها</a>
                 </div>
             </div>
+            
+            <!-- Slide 4 -->
+            <div class="slide">
+                <img src="project5.jpg" alt="اجرای شاسی، کشی، نما">
+                <div class="slide-content">
+                    <h2>شاسی، کشی و اجرای نما</h2>
+                    <p>خدمات کامل نما و شاسی در منطقه نیایش با استانداردهای بین‌المللی</p>
+                    <a href="#about" class="cta-button">درباره ما</a>
+                </div>
+            </div>
+            
+            <!-- Slide 5 -->
+            <div class="slide">
+                <img src="project6.jpg" alt="اسکلت فلزی مسکونی">
+                <div class="slide-content">
+                    <h2>اسکلت فلزی مسکونی</h2>
+                    <p>طراحی و اجرای اسکلت فلزی در شهر مینابی با بالاترین استانداردهای ایمنی</p>
+                    <a href="#contact" class="cta-button">تماس بگیرید</a>
+                </div>
+            </div>
+            
+            <!-- Navigation arrows -->
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
         </div>
 
-        <!-- Slideshow Navigation -->
-        <div class="slideshow-nav">
-            <button class="slide-btn active" data-slide="0"></button>
-            <button class="slide-btn" data-slide="1"></button>
-            <button class="slide-btn" data-slide="2"></button>
-        </div>
-
-        <!-- Slideshow Arrows -->
-        <div class="slideshow-arrows">
-            <button class="arrow-btn prev" id="prevSlide">
-                <i class="fas fa-chevron-right"></i>
-            </button>
-            <button class="arrow-btn next" id="nextSlide">
-                <i class="fas fa-chevron-left"></i>
-            </button>
+        <!-- Slide indicators -->
+        <div class="slide-indicators">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="services" id="services">
+    <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">خدمات ما</h2>
+            <div class="section-title">
+                <h2>خدمات ما</h2>
+                <p>ارائه کاملترین خدمات ساختمانی با کیفیت برتر و قیمت مناسب</p>
+            </div>
             <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>فلزکاری و جوشکاری</h3>
-                    <p>انجام کلیه کارهای فلزکاری، جوشکاری و ساخت قطعات فلزی با دقت و کیفیت بالا</p>
+                <div class="service-item fade-in">
+                    <h3>ساخت و ساز</h3>
+                    <p>اجرای کامل پروژه‌های ساختمانی از پی تا بام با استفاده از بهترین مصالح و تجهیزات مدرن</p>
                 </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-hammer"></i>
-                    </div>
-                    <h3>سفت‌کاری</h3>
-                    <p>اجرای کارهای سفت‌کاری، دیوارچینی و کاشی‌کاری با بهترین مصالح و تکنیک‌ها</p>
+                <div class="service-item fade-in">
+                    <h3>خدمات مهندسی</h3>
+                    <p>ارائه خدمات مهندسی تخصصی، محاسبات سازه‌ای و طراحی‌های فنی توسط مهندسان مجرب</p>
                 </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <h3>پیمانکاری ساختمانی</h3>
-                    <p>مجری پروژه‌های مسکونی، تجاری و صنعتی از طراحی تا اجرا و تحویل</p>
+                <div class="service-item fade-in">
+                    <h3>طراحی معماری</h3>
+                    <p>طراحی خلاقانه و کاربردی ساختمان‌ها با در نظر گیری نیازهای مشتری و استانداردهای روز</p>
                 </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-wrench"></i>
-                    </div>
-                    <h3>تعمیر و بازسازی</h3>
-                    <p>تعمیرات اساسی، بازسازی و نوسازی ساختمان‌ها با حفظ کیفیت و زیبایی</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="container">
-            <h2 class="section-title">نمونه کارهای ما</h2>
-            
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">همه</button>
-                <button class="filter-btn" data-filter="metalwork">فلزکاری</button>
-                <button class="filter-btn" data-filter="construction">ساختمانی</button>
-                <button class="filter-btn" data-filter="renovation">بازسازی</button>
-            </div>
-            
-            <div class="projects-grid">
-                <div class="project-card" data-category="metalwork">
-                    <img src="Screenshot_2025-08-09-11-21-31-095_com.instagram.android-edit.jpg" alt="پروژه فلزکاری" loading="lazy">
-                    <div class="project-overlay">
-                        <h3>فلزکاری تخصصی</h3>
-                        <p>ساخت و نصب سازه‌های فلزی</p>
-                        <a href="https://wa.me/989173580068" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-category="construction">
-                    <div class="project-placeholder">
-                        <i class="fas fa-building"></i>
-                        <span>پروژه ساختمانی</span>
-                    </div>
-                    <div class="project-overlay">
-                        <h3>ساخت ساختمان مسکونی</h3>
-                        <p>پروژه مسکونی ۳ طبقه</p>
-                        <a href="https://wa.me/989173580068" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-category="renovation">
-                    <div class="project-placeholder">
-                        <i class="fas fa-hammer"></i>
-                        <span>بازسازی</span>
-                    </div>
-                    <div class="project-overlay">
-                        <h3>بازسازی ساختمان</h3>
-                        <p>نوسازی کامل واحد مسکونی</p>
-                        <a href="https://wa.me/989173580068" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-category="metalwork">
-                    <div class="project-placeholder">
-                        <i class="fas fa-tools"></i>
-                        <span>جوشکاری</span>
-                    </div>
-                    <div class="project-overlay">
-                        <h3>جوشکاری صنعتی</h3>
-                        <p>جوشکاری قطعات صنعتی</p>
-                        <a href="https://wa.me/989173580068" class="project-link">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number" data-target="150">0</div>
-                    <div class="stat-label">پروژه موفق</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="8">0</div>
-                    <div class="stat-label">سال تجربه</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="200">0</div>
-                    <div class="stat-label">مشتری راضی</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="24">0</div>
-                    <div class="stat-label">پشتیبانی ۲۴ساعته</div>
+                <div class="service-item fade-in">
+                    <h3>نظارت و مدیریت</h3>
+                    <p>نظارت دقیق بر اجرای پروژه‌ها و مدیریت کامل فرآیند ساخت با رعایت زمان‌بندی و کیفیت</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section id="about" class="about">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">درباره ستونگر جنوب</h2>
-                    <p>ما در ستونگر جنوب با بیش از ۸ سال تجربه در زمینه پیمانکاری ساختمانی، فلزکاری و سفت‌کاری، همواره در تلاش برای ارائه بهترین کیفیت و خدمات به مشتریان عزیز خود بوده‌ایم.</p>
-                    
-                    <div class="about-features">
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>کیفیت تضمینی</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-clock"></i>
-                            <span>تحویل به موقع</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-users"></i>
-                            <span>تیم متخصص</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-shield-alt"></i>
-                            <span>ضمانت کار</span>
-                        </div>
+            <div class="section-title">
+                <h2>چرا ستون‌گر جنوب؟</h2>
+                <p>مزیت‌های کار با ما و دلایل اعتماد هزاران مشتری</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-item fade-in">
+                    <h3>سال‌ها تجربه</h3>
+                    <p>با بیش از ۱۵ سال تجربه در صنعت ساختمان، آماده ارائه بهترین خدمات به شما هستیم</p>
+                </div>
+                <div class="about-item fade-in">
+                    <h3>تضمین کیفیت</h3>
+                    <p>استفاده از مرغوب‌ترین مصالح و رعایت استانداردهای ساخت با ضمانت کامل</p>
+                </div>
+                <div class="about-item fade-in">
+                    <h3>تیم متخصص</h3>
+                    <p>کادر مجرب و متخصص در تمامی رشته‌های مرتبط با ساختمان آماده خدمت‌رسانی</p>
+                </div>
+                <div class="about-item fade-in">
+                    <h3>پشتیبانی ۲۴/۷</h3>
+                    <p>پشتیبانی مستمر و مشاوره رایگان در تمام مراحل پروژه و پس از تحویل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>نمونه کارها</h2>
+                <p>مشاهده پروژه‌های اجرا شده و نمونه کارهای موفق ما</p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="structural">سازه‌ای</button>
+                <button class="filter-btn" data-filter="construction">ساخت و ساز</button>
+                <button class="filter-btn" data-filter="facade">نما و شاسی</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-item fade-in" data-category="structural">
+                    <img src="project6.jpg" alt="اسکلت فلزی مسکونی">
+                    <div class="project-overlay">
+                        <h3>اسکلت فلزی مسکونی</h3>
+                        <p>محل اجرا: شهر مینابی</p>
                     </div>
                 </div>
                 
-                <div class="about-image">
-                    <img src="Screenshot_2025-08-09-11-21-31-095_com.instagram.android-edit.jpg" alt="تیم ستونگر جنوب" loading="lazy">
+                <div class="project-item fade-in" data-category="construction">
+                    <img src="project4.jpg" alt="اجرای والیست">
+                    <div class="project-overlay">
+                        <h3>اجرای والیست</h3>
+                        <p>محل اجرا: ۱۳ هکتاری</p>
+                    </div>
+                </div>
+                
+                <div class="project-item fade-in" data-category="construction">
+                    <img src="project3.jpg" alt="والیست و دیوارچینی">
+                    <div class="project-overlay">
+                        <h3>والیست و دیوارچینی</h3>
+                        <p>محل اجرا: نوی ولیعصر</p>
+                    </div>
+                </div>
+                
+                <div class="project-item fade-in" data-category="facade">
+                    <img src="project5.jpg" alt="شاسی و نما">
+                    <div class="project-overlay">
+                        <h3>شاسی، کشی، نما</h3>
+                        <p>محل اجرا: نیایش</p>
+                    </div>
+                </div>
+                
+                <div class="project-item fade-in" data-category="construction">
+                    <img src="project2.jpg" alt="والیست و دیوارچینی">
+                    <div class="project-overlay">
+                        <h3>والیست و دیوارچینی</h3>
+                        <p>محل اجرا: رسالت، کوچه خیر</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">تماس با ما</h2>
+            <div class="section-title">
+                <h2>تماس با ما</h2>
+                <p>برای دریافت مشاوره رایگان و کسب اطلاعات بیشتر با ما در تماس باشید</p>
+            </div>
             <div class="contact-content">
                 <div class="contact-info">
+                    <h3>اطلاعات تماس</h3>
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>تلفن تماس</h3>
-                            <a href="tel:09173580068" id="phone-link">0917 358 0068</a>
+                        <div class="icon">📍</div>
+                        <div>
+                            <h4>آدرس</h4>
+                            <p>بندرعباس، خیابان امام خمینی، نبش کوچه شهید رجایی</p>
                         </div>
                     </div>
-                    
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-whatsapp"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>واتساپ</h3>
-                            <a href="https://wa.me/989173580068">پیام در واتساپ</a>
+                        <div class="icon">📞</div>
+                        <div>
+                            <h4>تلفن</h4>
+                            <p>076-33445566</p>
                         </div>
                     </div>
-                    
                     <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-instagram"></i>
+                        <div class="icon">📱</div>
+                        <div>
+                            <h4>موبایل</h4>
+                            <p>0917-7123456</p>
                         </div>
-                        <div class="contact-details">
-                            <h3>اینستاگرام</h3>
-                            <a href="https://instagram.com/setoungarjonoub" target="_blank">@setoungarjonoub</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">✉️</div>
+                        <div>
+                            <h4>ایمیل</h4>
+                            <p>info@setoungar-south.ir</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="نام و نام خانوادگی" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" id="phone" name="phone" placeholder="شماره تماس" required>
-                        </div>
-                        <div class="form-group">
-                            <select id="service" name="service" required>
-                                <option value="">نوع خدمات مورد نیاز</option>
-                                <option value="فلزکاری">فلزکاری و جوشکاری</option>
-                                <option value="سفت‌کاری">سفت‌کاری</option>
-                                <option value="پیمانکاری">پیمانکاری ساختمانی</option>
-                                <option value="بازسازی">تعمیر و بازسازی</option>
-                                <option value="مشاوره">مشاوره رایگان</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="توضیحات پروژه..." rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">ارسال پیام</button>
-                    </form>
-                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">نام و نام خانوادگی</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">شماره تماس</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">ایمیل</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">پیام</label>
+                        <textarea id="message" name="message" rows="5" placeholder="توضیحات پروژه خود را بنویسید..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">ارسال پیام</button>
+                </form>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="logo_circle.png" alt="ستونگر جنوب">
-                        <span>ستونگر جنوب</span>
-                    </div>
-                    <p>متخصص در فلزکاری، جوشکاری، سفت‌کاری و پیمانکاری ساختمانی</p>
+                    <h3>شرکت ستون‌گر جنوب</h3>
+                    <p>ارائه‌دهنده خدمات تخصصی ساختمانی در جنوب کشور با تجربه‌ای طولانی و تیمی حرفه‌ای</p>
                 </div>
-                
                 <div class="footer-section">
-                    <h3>خدمات ما</h3>
-                    <ul>
-                        <li><a href="#services">فلزکاری و جوشکاری</a></li>
-                        <li><a href="#services">سفت‌کاری</a></li>
-                        <li><a href="#services">پیمانکاری ساختمانی</a></li>
-                        <li><a href="#services">تعمیر و بازسازی</a></li>
-                    </ul>
+                    <h3>خدمات</h3>
+                    <p><a href="#services">ساخت و ساز</a></p>
+                    <p><a href="#services">خدمات مهندسی</a></p>
+                    <p><a href="#services">طراحی معماری</a></p>
+                    <p><a href="#services">نظارت و مدیریت</a></p>
                 </div>
-                
                 <div class="footer-section">
-                    <h3>ارتباط با ما</h3>
-                    <div class="footer-contact">
-                        <p><i class="fas fa-phone"></i> 0917 358 0068</p>
-                        <p><i class="fab fa-whatsapp"></i> واتساپ</p>
-                        <p><i class="fab fa-instagram"></i> @setoungarjonoub</p>
-                    </div>
+                    <h3>تماس سریع</h3>
+                    <p>📞 076-33445566</p>
+                    <p>📱 0917-7123456</p>
+                    <p>✉️ info@setoungar-south.ir</p>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <p>&copy; ۱۴۰۳ ستونگر جنوب. تمامی حقوق محفوظ است.</p>
+                <p>&copy; 2024 شرکت ساختمانی ستون‌گر جنوب. تمامی حقوق محفوظ است.</p>
             </div>
         </div>
     </footer>
-
-    <!-- Float Buttons -->
-    <div class="float-buttons">
-        <a href="https://wa.me/989173580068" class="float-btn whatsapp" title="واتساپ">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-        <a href="tel:09173580068" class="float-btn call" title="تماس">
-            <i class="fas fa-phone"></i>
-        </a>
-        <a href="https://instagram.com/setoungarjonoub" class="float-btn instagram" target="_blank" title="اینستاگرام">
-            <i class="fab fa-instagram"></i>
-        </a>
-    </div>
-
-    <!-- Back to Top -->
-    <button id="backToTop" class="back-to-top" title="بازگشت به بالا">
-        <i class="fas fa-arrow-up"></i>
-    </button>
 
     <script src="script.js"></script>
 </body>
